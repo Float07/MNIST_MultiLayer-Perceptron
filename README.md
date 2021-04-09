@@ -33,5 +33,5 @@ The script will download the MNIST dataset and use it to train the parameters of
   
 *  The input has 784 values, that are equivalent to each grayscale pixel from each of the images.
 *  This input gets through a linear transformation that results in the 500 values of the first hidden layer.
-*  These 500 values are then sent through a ReLU (max(x,0)), resulting in 500 values of the second hidden layer.
+*  These 500 values are then sent through a ReLU function (max(x,0)), resulting in 500 values of the second hidden layer.
 *  Finally these 500 values are sent through another linear transformation, resulting in 10 different values. Each of these values represent a different number, and the higher the value, the higher the chance of the image being that specific number.
