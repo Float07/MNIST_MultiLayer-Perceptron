@@ -21,7 +21,7 @@ Install the tqdm loading bar:
 After this you can just run the script normally:
   
   ```sh
-  python -m script.py
+  python script.py
   ```
  
 ### What does it do?
